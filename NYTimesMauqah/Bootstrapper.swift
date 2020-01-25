@@ -17,7 +17,7 @@ struct Bootstrapper {
     
     static func initialize() {
         
-       // NetworkManager.shared.startListening()
+        NetworkManager.shared.startListening()
         
         instance = Bootstrapper(window: makeNewWindow())
         instance!.bootstrap()
@@ -45,7 +45,7 @@ struct Bootstrapper {
 
         /* Create ui-view-controller instance*/
         
-        let newsListing = UIViewController()//NewsListingRouter.createModule(using: navigationController)
+        let newsListing = NewsListingRouter.createModule(using: navigationController)
 
         /* Initiating instance of ui-navigation-controller with view-controller */
         navigationController.viewControllers = [newsListing]
