@@ -172,7 +172,7 @@
 		804C016623DC405F00F38CA9 = {
 			isa = PBXGroup;
 			children = (
-				804C017123DC405F00F38CA9 /* NYTimesMauqah */,
+				804C017123DC405F00F38CA9 /* NYTimes */,
 				804C018823DC406100F38CA9 /* NYTimesMauqahTests */,
 				804C019323DC406100F38CA9 /* NYTimesMauqahUITests */,
 				804C017023DC405F00F38CA9 /* Products */,
@@ -189,7 +189,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		804C017123DC405F00F38CA9 /* NYTimesMauqah */ = {
+		804C017123DC405F00F38CA9 /* NYTimes */ = {
 			isa = PBXGroup;
 			children = (
 				8064FC8223DD591300EEA3E3 /* Extension */,
@@ -204,7 +204,7 @@
 				804C018023DC406000F38CA9 /* Info.plist */,
 				804C01A223DC44AE00F38CA9 /* Bootstrapper.swift */,
 			);
-			path = NYTimesMauqah;
+			path = NYTimes;
 			sourceTree = "<group>";
 		};
 		804C018823DC406100F38CA9 /* NYTimesMauqahTests */ = {
