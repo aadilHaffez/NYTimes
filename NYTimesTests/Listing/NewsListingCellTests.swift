@@ -1,6 +1,6 @@
 //
 //  NewsListingCellTests.swift
-//  NYTimesMauqahTests
+//  NYTimesTests
 //
 //  Created by aadilkhaskheli on 26/01/2020.
 //  Copyright © 2020 aadilkhaskheli. All rights reserved.
@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 
-@testable import NYTimesMauqah
+@testable import NYTimes
 
 class NewsListingCellTests : XCTestCase {
     
