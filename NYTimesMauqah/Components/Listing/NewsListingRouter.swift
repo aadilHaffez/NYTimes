@@ -29,6 +29,7 @@ class NewsListingRouter : NewsListingWireframeProtocol {
     }
     
     func showNewsDetail(news: News) {
-        
+        let controller = NewsDetailRouter.createModule(news: news)
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 }
