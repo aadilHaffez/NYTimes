@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import NYTimesMauqah
+@testable import NYTimes
 class NYTimesMauqahUITests: XCTestCase {
 
     override func setUp() {

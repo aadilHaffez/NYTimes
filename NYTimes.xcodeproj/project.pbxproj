@@ -22,7 +22,7 @@
 		804C017C23DC406000F38CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804C017B23DC406000F38CA9 /* Assets.xcassets */; };
 		804C017F23DC406000F38CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804C017D23DC406000F38CA9 /* LaunchScreen.storyboard */; };
 		804C018A23DC406100F38CA9 /* NYTimesMauqahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C018923DC406100F38CA9 /* NYTimesMauqahTests.swift */; };
-		804C019523DC406100F38CA9 /* NYTimesMauqahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C019423DC406100F38CA9 /* NYTimesMauqahUITests.swift */; };
+		804C019523DC406100F38CA9 /* NYTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C019423DC406100F38CA9 /* NYTimesUITests.swift */; };
 		804C01A323DC44AE00F38CA9 /* Bootstrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C01A223DC44AE00F38CA9 /* Bootstrapper.swift */; };
 		804C01EB23DC895000F38CA9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C01D123DC895000F38CA9 /* Constants.swift */; };
 		804C01EC23DC895000F38CA9 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C01D323DC895000F38CA9 /* URLRequest.swift */; };
@@ -90,7 +90,7 @@
 		804C018923DC406100F38CA9 /* NYTimesMauqahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMauqahTests.swift; sourceTree = "<group>"; };
 		804C018B23DC406100F38CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804C019023DC406100F38CA9 /* NYTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		804C019423DC406100F38CA9 /* NYTimesMauqahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMauqahUITests.swift; sourceTree = "<group>"; };
+		804C019423DC406100F38CA9 /* NYTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesUITests.swift; sourceTree = "<group>"; };
 		804C019623DC406100F38CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804C01A223DC44AE00F38CA9 /* Bootstrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrapper.swift; sourceTree = "<group>"; };
 		804C01D123DC895000F38CA9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -173,8 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				804C017123DC405F00F38CA9 /* NYTimes */,
-				804C018823DC406100F38CA9 /* NYTimesMauqahTests */,
-				804C019323DC406100F38CA9 /* NYTimesMauqahUITests */,
+				804C018823DC406100F38CA9 /* NYTimesTests */,
+				804C019323DC406100F38CA9 /* NYTimesUITests */,
 				804C017023DC405F00F38CA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			path = NYTimes;
 			sourceTree = "<group>";
 		};
-		804C018823DC406100F38CA9 /* NYTimesMauqahTests */ = {
+		804C018823DC406100F38CA9 /* NYTimesTests */ = {
 			isa = PBXGroup;
 			children = (
 				802D478F23DDAA2800FF30F8 /* Details */,
@@ -216,18 +216,18 @@
 				804C018B23DC406100F38CA9 /* Info.plist */,
 				802D478D23DD9F4E00FF30F8 /* NewsModelTests.swift */,
 			);
-			path = NYTimesMauqahTests;
+			path = NYTimesTests;
 			sourceTree = "<group>";
 		};
-		804C019323DC406100F38CA9 /* NYTimesMauqahUITests */ = {
+		804C019323DC406100F38CA9 /* NYTimesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				804C019423DC406100F38CA9 /* NYTimesMauqahUITests.swift */,
+				804C019423DC406100F38CA9 /* NYTimesUITests.swift */,
 				804C019623DC406100F38CA9 /* Info.plist */,
 				804C020E23DCC16600F38CA9 /* NewsListingUITest.swift */,
 				804C021023DCC96D00F38CA9 /* XCUIElement.swift */,
 			);
-			path = NYTimesMauqahUITests;
+			path = NYTimesUITests;
 			sourceTree = "<group>";
 		};
 		804C01D223DC895000F38CA9 /* Network */ = {
@@ -527,7 +527,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804C019523DC406100F38CA9 /* NYTimesMauqahUITests.swift in Sources */,
+				804C019523DC406100F38CA9 /* NYTimesUITests.swift in Sources */,
 				804C021123DCC96D00F38CA9 /* XCUIElement.swift in Sources */,
 				804C020F23DCC16600F38CA9 /* NewsListingUITest.swift in Sources */,
 			);
@@ -679,7 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NYTimesMauqah/Info.plist;
+				INFOPLIST_FILE = NYTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -696,7 +696,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NYTimesMauqah/Info.plist;
+				INFOPLIST_FILE = NYTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
