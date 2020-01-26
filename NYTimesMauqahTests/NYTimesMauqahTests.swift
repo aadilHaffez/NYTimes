@@ -30,5 +30,14 @@ class NYTimesMauqahTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testNewsStoryboardInitialViewController() {
+        let storyboard = UIStoryboard(name: "News", bundle: nil)
+        XCTAssertTrue(storyboard.instantiateInitialViewController() is  NewsListingViewController)
+    }
+    
+    
+    
+    
 
 }

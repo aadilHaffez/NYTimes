@@ -14,7 +14,7 @@ class MockNewsListingInteractor: NewsListingInteractorInputProtocol {
     
     func fetchNews(page: Int) {
         
-        let result = JSONManager.getUsersData()
+        let result = JSONManager.getNewsData()
         switch result {
             
         case .Success(let data):

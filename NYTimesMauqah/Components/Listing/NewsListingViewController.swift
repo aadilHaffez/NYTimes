@@ -40,7 +40,6 @@ class NewsListingViewController: UIViewController {
                 //Now Internet.
                 let alert_controller = UIAlertController(title: "No Internet Connection", message: "Please verify you are connected to Wifi, cellular & restart App", preferredStyle: .alert)
                 let action1 = UIAlertAction(title: "Okay", style: .default) { (action:UIAlertAction) in
-                    print("You've pressed default");
                 }
                 
                 alert_controller.addAction(action1)

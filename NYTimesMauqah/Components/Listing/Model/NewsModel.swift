@@ -34,6 +34,30 @@ struct News: Codable {
     let desFacet, orgFacet, perFacet, geoFacet: Facet?
     let media: [Media]?
     
+    
+    init(title: String? = nil, abstract: String? = nil,media: [Media]? = nil,url: String? = nil,
+         adxKeywords: String? = nil,column: String? = nil,section : String? = nil, byline: String? = nil,type: ResultType? = nil, source: Source? = nil,id : Int? = 0, assetID : Int? = 0, views: Int? = 0,desFacet : Facet? = nil, orgFacet : Facet? = nil, perFacet : Facet? = nil, geoFacet: Facet? = nil, publishedDate : String? = nil)
+    {
+        self.title = title
+        self.abstract = abstract
+        self.media = media
+        
+        self.url = url
+        self.adxKeywords = adxKeywords
+        self.column = column
+        self.section = section
+        self.byline = byline
+        self.type = type
+        self.publishedDate = publishedDate
+        self.source = source
+        self.id = id
+        self.assetID = assetID
+        self.views = views
+        self.desFacet = desFacet
+        self.orgFacet = orgFacet
+        self.perFacet = perFacet
+        self.geoFacet = geoFacet
+    }
     enum CodingKeys: String, CodingKey {
         case url
         case adxKeywords = "adx_keywords"
@@ -86,6 +110,14 @@ struct Media: Codable {
     let approvedForSyndication: Int?
     let mediaMetadata: [MediaMetadatum]?
     
+    init(type : MediaType? = nil, subType : Subtype? = nil, caption : String? = nil, copyright : String? = nil, approvedForSyndication : Int? = 0, mediaMetadata  : [MediaMetadatum]? = nil) {
+        self.type =  type
+        self.subtype = subType
+        self.caption = caption
+        self.copyright = copyright
+        self.approvedForSyndication = approvedForSyndication
+        self.mediaMetadata = mediaMetadata
+    }
     enum CodingKeys: String, CodingKey {
         case type, subtype, caption, copyright
         case approvedForSyndication = "approved_for_syndication"
@@ -98,6 +130,13 @@ struct MediaMetadatum: Codable {
     let url: String?
     let format: Format?
     let height, width: Int?
+    
+    init(url : String? = nil, format : Format? = nil, height : Int? = 0, width : Int? = 0) {
+        self.url = url
+        self.format = format
+        self.height = height
+        self.width = width
+    }
 }
 
 enum Format: String, Codable {

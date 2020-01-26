@@ -9,10 +9,13 @@
 import XCTest
 
 @testable import NYTimesMauqah
+
 class NewsListingUITest: XCTestCase {
 
     var app: XCUIApplication!
 
+    
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -34,6 +37,8 @@ class NewsListingUITest: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    
     
     
     func testNewsListingScrollUp() {
@@ -65,4 +70,39 @@ class NewsListingUITest: XCTestCase {
         app.gentleSwipe(0.5, .Down)
         app.gentleSwipe(0.5, .Down)
     }
+    
+    func testDidSelectItemIndex0() {
+        let myTable = app.tables.matching(identifier: "NewsTableViewIdentifier")
+        let cell = myTable.cells.element(matching: .cell, identifier: "myCell_0")
+        cell.tap()
+        
+        sleep(5)
+        
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+    }
+    
+    
+    func testDidSelectItemIndex1() {
+        let myTable = app.tables.matching(identifier: "NewsTableViewIdentifier")
+        let cell = myTable.cells.element(matching: .cell, identifier: "myCell_1")
+        cell.tap()
+        
+        sleep(5)
+        
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+    }
+    
+    
+    func testDidSelectItemIndex2() {
+        let myTable = app.tables.matching(identifier: "NewsTableViewIdentifier")
+        let cell = myTable.cells.element(matching: .cell, identifier: "myCell_2")
+        cell.tap()
+        
+        sleep(5)
+        
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+    }
+    
+    
+   
 }

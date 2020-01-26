@@ -22,7 +22,7 @@ enum NewsResult {
 }
 struct JSONManager {
     
-    static func getUsersData() -> NewsResult {
+    static func getNewsData() -> NewsResult {
         return readData(from: "news")
     }
     
@@ -31,14 +31,11 @@ struct JSONManager {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 return .Success(data)
-                //return .success(data)
             } catch (let ex){
                 return .Failure(ex)
-               // return .failure(ex)
             }
         }else{
             return .Failure(CustomError.error(message: "JSON file not found"))
-            //return .failure(CustomError.error(message: "JSON file not found"))
         }
     }
 }

@@ -38,7 +38,8 @@ class NewsListingPresenter : NewsListingPresenterProtocol, NewsListingInteractor
     }
     
     func showNewsDetail(indexPath: IndexPath) {
-        
+        guard let news = self.result?.results? [indexPath.row] else { return }
+        self.router.showNewsDetail(news: news)
     }
     
     func fetchNews(result: Results) {

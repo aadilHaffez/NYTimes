@@ -49,7 +49,7 @@ class NewsTableViewCell: UITableViewCell {
                 mediaMetadata.count > 0 {
                 let url = mediaMetadata[0]
                 if let url = url.url  {
-                   // self.imageview_news.downloaded(from: url)
+                    self.imageview_news.downloaded(from: url)
                 }
             }
         }
