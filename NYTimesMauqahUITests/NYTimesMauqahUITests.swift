@@ -8,6 +8,7 @@
 
 import XCTest
 
+@testable import NYTimesMauqah
 class NYTimesMauqahUITests: XCTestCase {
 
     override func setUp() {
@@ -40,4 +41,12 @@ class NYTimesMauqahUITests: XCTestCase {
             }
         }
     }
+//    func testImageViewExtension (){
+//        let image = UIImageView()
+//        image.set
+//    }
+    
+    
+    
+    
 }

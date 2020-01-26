@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3ib-2V-FYP">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -39,7 +39,7 @@
                         <viewLayoutGuide key="safeArea" id="IdR-6Z-3gC"/>
                     </view>
                     <connections>
-                        <outlet property="loader" destination="Uu0-6n-Pwg" id="8yr-By-R2s"/>
+                        <outlet property="loader" destination="Uu0-6n-Pwg" id="cgV-rT-Iso"/>
                         <outlet property="tableview_news_listing" destination="Dlu-2M-RTG" id="hxD-F0-Awc"/>
                     </connections>
                 </viewController>
