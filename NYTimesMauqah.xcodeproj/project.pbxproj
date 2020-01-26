@@ -38,6 +38,8 @@
 		804C020723DCAE7E00F38CA9 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 804C020623DCAE7E00F38CA9 /* news.json */; };
 		804C020923DCAF1B00F38CA9 /* MockNewsListingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C020823DCAF1B00F38CA9 /* MockNewsListingRouter.swift */; };
 		804C020D23DCAF7100F38CA9 /* NewsListingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C020C23DCAF7100F38CA9 /* NewsListingTests.swift */; };
+		804C020F23DCC16600F38CA9 /* NewsListingUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C020E23DCC16600F38CA9 /* NewsListingUITest.swift */; };
+		804C021123DCC96D00F38CA9 /* XCUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C021023DCC96D00F38CA9 /* XCUIElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		804C020623DCAE7E00F38CA9 /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 		804C020823DCAF1B00F38CA9 /* MockNewsListingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsListingRouter.swift; sourceTree = "<group>"; };
 		804C020C23DCAF7100F38CA9 /* NewsListingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListingTests.swift; sourceTree = "<group>"; };
+		804C020E23DCC16600F38CA9 /* NewsListingUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListingUITest.swift; sourceTree = "<group>"; };
+		804C021023DCC96D00F38CA9 /* XCUIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 			children = (
 				804C019423DC406100F38CA9 /* NYTimesMauqahUITests.swift */,
 				804C019623DC406100F38CA9 /* Info.plist */,
+				804C020E23DCC16600F38CA9 /* NewsListingUITest.swift */,
+				804C021023DCC96D00F38CA9 /* XCUIElement.swift */,
 			);
 			path = NYTimesMauqahUITests;
 			sourceTree = "<group>";
@@ -458,6 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				804C019523DC406100F38CA9 /* NYTimesMauqahUITests.swift in Sources */,
+				804C021123DCC96D00F38CA9 /* XCUIElement.swift in Sources */,
+				804C020F23DCC16600F38CA9 /* NewsListingUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
