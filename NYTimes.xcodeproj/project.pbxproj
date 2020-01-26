@@ -81,15 +81,15 @@
 		802D479223DDAA8700FF30F8 /* MockNewsDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsDetailInteractor.swift; sourceTree = "<group>"; };
 		802D479423DDAAB000FF30F8 /* MockNewsDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsDetailRouter.swift; sourceTree = "<group>"; };
 		802D479623DDAB6700FF30F8 /* NewsDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailTests.swift; sourceTree = "<group>"; };
-		804C016F23DC405F00F38CA9 /* NYTimesMauqah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesMauqah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804C016F23DC405F00F38CA9 /* NYTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804C017223DC405F00F38CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804C017B23DC406000F38CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804C017E23DC406000F38CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804C018023DC406000F38CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		804C018523DC406100F38CA9 /* NYTimesMauqahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesMauqahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804C018523DC406100F38CA9 /* NYTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804C018923DC406100F38CA9 /* NYTimesMauqahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMauqahTests.swift; sourceTree = "<group>"; };
 		804C018B23DC406100F38CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		804C019023DC406100F38CA9 /* NYTimesMauqahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesMauqahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804C019023DC406100F38CA9 /* NYTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804C019423DC406100F38CA9 /* NYTimesMauqahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMauqahUITests.swift; sourceTree = "<group>"; };
 		804C019623DC406100F38CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804C01A223DC44AE00F38CA9 /* Bootstrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrapper.swift; sourceTree = "<group>"; };
@@ -182,9 +182,9 @@
 		804C017023DC405F00F38CA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				804C016F23DC405F00F38CA9 /* NYTimesMauqah.app */,
-				804C018523DC406100F38CA9 /* NYTimesMauqahTests.xctest */,
-				804C019023DC406100F38CA9 /* NYTimesMauqahUITests.xctest */,
+				804C016F23DC405F00F38CA9 /* NYTimes.app */,
+				804C018523DC406100F38CA9 /* NYTimesTests.xctest */,
+				804C019023DC406100F38CA9 /* NYTimesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,9 +348,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		804C016E23DC405F00F38CA9 /* NYTimesMauqah */ = {
+		804C016E23DC405F00F38CA9 /* NYTimes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 804C019923DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqah" */;
+			buildConfigurationList = 804C019923DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimes" */;
 			buildPhases = (
 				804C016B23DC405F00F38CA9 /* Sources */,
 				804C016C23DC405F00F38CA9 /* Frameworks */,
@@ -360,14 +360,14 @@
 			);
 			dependencies = (
 			);
-			name = NYTimesMauqah;
+			name = NYTimes;
 			productName = NYTimesMauqah;
-			productReference = 804C016F23DC405F00F38CA9 /* NYTimesMauqah.app */;
+			productReference = 804C016F23DC405F00F38CA9 /* NYTimes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		804C018423DC406100F38CA9 /* NYTimesMauqahTests */ = {
+		804C018423DC406100F38CA9 /* NYTimesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 804C019C23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqahTests" */;
+			buildConfigurationList = 804C019C23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesTests" */;
 			buildPhases = (
 				804C018123DC406100F38CA9 /* Sources */,
 				804C018223DC406100F38CA9 /* Frameworks */,
@@ -378,14 +378,14 @@
 			dependencies = (
 				804C018723DC406100F38CA9 /* PBXTargetDependency */,
 			);
-			name = NYTimesMauqahTests;
+			name = NYTimesTests;
 			productName = NYTimesMauqahTests;
-			productReference = 804C018523DC406100F38CA9 /* NYTimesMauqahTests.xctest */;
+			productReference = 804C018523DC406100F38CA9 /* NYTimesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		804C018F23DC406100F38CA9 /* NYTimesMauqahUITests */ = {
+		804C018F23DC406100F38CA9 /* NYTimesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 804C019F23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqahUITests" */;
+			buildConfigurationList = 804C019F23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesUITests" */;
 			buildPhases = (
 				804C018C23DC406100F38CA9 /* Sources */,
 				804C018D23DC406100F38CA9 /* Frameworks */,
@@ -396,9 +396,9 @@
 			dependencies = (
 				804C019223DC406100F38CA9 /* PBXTargetDependency */,
 			);
-			name = NYTimesMauqahUITests;
+			name = NYTimesUITests;
 			productName = NYTimesMauqahUITests;
-			productReference = 804C019023DC406100F38CA9 /* NYTimesMauqahUITests.xctest */;
+			productReference = 804C019023DC406100F38CA9 /* NYTimesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -424,7 +424,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 804C016A23DC405F00F38CA9 /* Build configuration list for PBXProject "NYTimesMauqah" */;
+			buildConfigurationList = 804C016A23DC405F00F38CA9 /* Build configuration list for PBXProject "NYTimes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -437,9 +437,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				804C016E23DC405F00F38CA9 /* NYTimesMauqah */,
-				804C018423DC406100F38CA9 /* NYTimesMauqahTests */,
-				804C018F23DC406100F38CA9 /* NYTimesMauqahUITests */,
+				804C016E23DC405F00F38CA9 /* NYTimes */,
+				804C018423DC406100F38CA9 /* NYTimesTests */,
+				804C018F23DC406100F38CA9 /* NYTimesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -538,12 +538,12 @@
 /* Begin PBXTargetDependency section */
 		804C018723DC406100F38CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 804C016E23DC405F00F38CA9 /* NYTimesMauqah */;
+			target = 804C016E23DC405F00F38CA9 /* NYTimes */;
 			targetProxy = 804C018623DC406100F38CA9 /* PBXContainerItemProxy */;
 		};
 		804C019223DC406100F38CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 804C016E23DC405F00F38CA9 /* NYTimesMauqah */;
+			target = 804C016E23DC405F00F38CA9 /* NYTimes */;
 			targetProxy = 804C019123DC406100F38CA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -684,7 +684,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTimesMauqah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -701,7 +701,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTimesMauqah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -725,7 +725,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimesMauqah.app/NYTimesMauqah";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimes.app/NYTimes";
 			};
 			name = Debug;
 		};
@@ -746,7 +746,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimesMauqah.app/NYTimesMauqah";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimes.app/NYTimes";
 			};
 			name = Release;
 		};
@@ -791,7 +791,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		804C016A23DC405F00F38CA9 /* Build configuration list for PBXProject "NYTimesMauqah" */ = {
+		804C016A23DC405F00F38CA9 /* Build configuration list for PBXProject "NYTimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				804C019723DC406100F38CA9 /* Debug */,
@@ -800,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		804C019923DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqah" */ = {
+		804C019923DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				804C019A23DC406100F38CA9 /* Debug */,
@@ -809,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		804C019C23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqahTests" */ = {
+		804C019C23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				804C019D23DC406100F38CA9 /* Debug */,
@@ -818,7 +818,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		804C019F23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesMauqahUITests" */ = {
+		804C019F23DC406100F38CA9 /* Build configuration list for PBXNativeTarget "NYTimesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				804C01A023DC406100F38CA9 /* Debug */,
